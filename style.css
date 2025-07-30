@@ -1,0 +1,9 @@
+body {
+  font-family: sans-serif;
+  padding: 1rem;
+}
+.product {
+  border: 1px solid #ccc;
+  margin: 1rem 0;
+  padding: 1rem;
+}

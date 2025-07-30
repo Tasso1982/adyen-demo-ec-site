@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>商品一覧</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>商品一覧</h1>
+  <div class="product-list">
+    <div class="product">
+      <h2>ポロシャツ</h2>
+      <p>価格: ¥2,499</p>
+      <button onclick="addToCart('ポロシャツ', 2499)">カートに追加</button>
+    </div>
+    <div class="product">
+      <h2>サングラス</h2>
+      <p>価格: ¥1,499</p>
+      <button onclick="addToCart('サングラス', 1499)">カートに追加</button>
+    </div>
+  </div>
+  <a href="cart.html">カートを見る</a>
+  <script src="script.js"></script>
+</body>
+</html>
